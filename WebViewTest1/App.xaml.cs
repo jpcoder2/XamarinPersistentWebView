@@ -11,7 +11,7 @@ namespace WebViewTest1
             InitializeComponent ();
 
             // setup WebViewPage
-            this.WebViewPage = new WebViewPage ("https://myblueprint.healthadvantage-hmo.com");
+            this.WebViewPage = new WebViewPage ("https://www.google.com");
 
             var nav = new NavigationPage (new MainPage ());
             MainPage = nav;
